@@ -1,0 +1,16 @@
+squares {
+  border: 2px solid black;
+  padding: 0%;
+  margin: 0%;
+  width: 20px;
+  height: 20px;
+}
+
+#container {
+  display: grid;
+  border: 5px solid black;
+  padding: 2px;
+  margin: 0;
+  width: 350px;
+  height: 350px;
+}

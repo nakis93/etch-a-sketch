@@ -1,13 +1,16 @@
 .box {
   display: grid;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border: 1px solid black;
   margin: 0;
 }
 
 #container {
+  /* height: 680px;
+  width: 680px; */
   display: grid;
   grid-gap: 0;
-  grid-template-columns: repeat(16, 22px);
+  grid-template-columns: repeat(16, 27px);
+  /* border: 2px solid black; */
 }

@@ -1,14 +1,12 @@
 "use strict";
-
-const grid = document.createElement("div");
-grid.id = "grid";
-document.body.appendChild(grid);
-
-function createColumn() {
+// A function to create X columns
+const container = document.querySelector("#container");
+function createBox() {
   for (let i = 0; i < 256; i++) {
-    const square = document.createElement("div");
-    square.classList.toggle("square");
-    grid.appendChild(square);
+    const box = document.createElement("div");
+    box.classList.add("box");
+    container.appendChild(box);
+    // console.log(box);
   }
 }
-createColumn();
+createBox();
